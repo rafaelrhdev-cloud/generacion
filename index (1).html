@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generación 1992–1996</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Escuela &middot; Álbum conmemorativo</div>
+    <h1 class="titulo">Generación <em>1992–1996</em></h1>
+    <p class="subtitulo">Sesenta caminos que empezaron en la misma aula, hace más de un cuarto de siglo.</p>
+    <div class="sello">Promoción &lsquo;96</div>
+  </header>
+
+  <section class="buscador" id="buscador">
+    <label for="input-busqueda">Busca a un compañero por nombre o apellido</label>
+    <div class="buscador-caja">
+      <span class="icono-lupa" aria-hidden="true"></span>
+      <input type="text" id="input-busqueda" placeholder="Escribe un nombre, apellido o parte de él…" autocomplete="off">
+    </div>
+    <div class="resultados" id="caja-resultados"></div>
+  </section>
+
+  <section class="ficha-wrap">
+    <div class="ficha-etiqueta">Ficha del compañero</div>
+    <div class="ficha" id="ficha">
+      <!-- se llena por JS -->
+    </div>
+    <div class="aviso-datos">
+      Nota para quien administre la página: los datos de cada ficha (apodo, frase, dato y trayectoria) son de ejemplo.
+      Sustitúyanlos por la información real de cada persona, y reemplacen el monograma por su fotografía cuando la tengan.
+    </div>
+  </section>
+
+  <section class="listado" id="listado">
+    <div class="listado-header">
+      <h3>Los 60 de la generación</h3>
+      <span class="contador" id="contador-listado">60 nombres · en orden alfabético</span>
+    </div>
+    <div class="grid-nombres" id="grid-nombres"></div>
+  </section>
+
+  <footer>Generación 1992 &ndash; 1996 &middot; hecho con cariño para no olvidar a nadie</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
